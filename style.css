@@ -1,0 +1,187 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+body {
+	background: url('/images/Skillcrush_Desktop.jpg') repeat fixed center center / cover  rgba(0, 0, 0, 0);
+}
+
+div{
+  position: fixed;
+
+}
+/* box */
+#content {
+  width: 325px;
+  height: auto;
+  top: 5%;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px 0px 0px 5px;
+  padding: 20px 0px 60px 20px;
+
+}
+
+p {
+	font-family:arial;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #282828;
+	text-align: left;
+  padding-bottom: 15px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size:15px;
+    letter-spacing:1px;
+    padding: 8px;
+  }
+
+h3 {
+  color: #282828;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size:11px;
+    letter-spacing:1px;
+}
+#sub-heading {
+    background: none repeat scroll 0 0 #CFC6C2;
+    border-radius: 0 0 0 4px;
+}
+
+p {
+  padding-top:10px;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size:14px;
+  color: #383838;
+  line-height: 1.5;
+}
+
+#about_me {
+  position:relative;
+  padding: 10px 20px 20px 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF9A6B;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FF9A6B;
+}
+
+/* mouse over link */
+a:hover {
+    color: #DD6B37;
+}
+
+/* selected link */
+a:active {
+    color: #F4AF8F;
+}
+
+/* social media links */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  float:left;
+  margin-right: 5px;
+}
+
+#social {
+  display: block;
+width: 31px;
+height: 31px;
+overflow: hidden;
+}
+   
+/*instagram */
+
+.instagram {
+background: url('/images/social.png') no-repeat 0 0;
+overflow: hidden;
+}
+ 
+.instagram:hover {
+background: url('/images/social.png') no-repeat 0 -31px;
+overflow: hidden;
+}
+
+/* twitter */
+
+.twitter {
+background: url('/images/social.png') no-repeat -32px 0;
+}
+
+.twitter:hover{
+background: url('/images/social.png') no-repeat -32px -31px;
+}
+
+/* dribbble */
+
+.dribbble {
+background: url('/images/social.png') no-repeat -64px 0;
+}
+.dribbble:hover {
+background: url('/images/social.png') no-repeat -64px -31px;
+}
+
+
