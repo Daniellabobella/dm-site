@@ -49,7 +49,7 @@ input, select { vertical-align: middle; }
 
 /* Write your CSS styles here */
 body {
-	background: url('/images/Skillcrush_Desktop.jpg') repeat fixed center center / cover  rgba(0, 0, 0, 0);
+	background: url('Skillcrush_Desktop.jpg') repeat fixed center center / cover  rgba(0, 0, 0, 0);
 }
 
 div{
@@ -156,32 +156,32 @@ overflow: hidden;
 /*instagram */
 
 .instagram {
-background: url('/images/social.png') no-repeat 0 0;
+background: url('social.png') no-repeat 0 0;
 overflow: hidden;
 }
  
 .instagram:hover {
-background: url('/images/social.png') no-repeat 0 -31px;
+background: url('social.png') no-repeat 0 -31px;
 overflow: hidden;
 }
 
 /* twitter */
 
 .twitter {
-background: url('/images/social.png') no-repeat -32px 0;
+background: url('social.png') no-repeat -32px 0;
 }
 
 .twitter:hover{
-background: url('/images/social.png') no-repeat -32px -31px;
+background: url('social.png') no-repeat -32px -31px;
 }
 
 /* dribbble */
 
 .dribbble {
-background: url('/images/social.png') no-repeat -64px 0;
+background: url('social.png') no-repeat -64px 0;
 }
 .dribbble:hover {
-background: url('/images/social.png') no-repeat -64px -31px;
+background: url('social.png') no-repeat -64px -31px;
 }
 
 
